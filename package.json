@@ -1,0 +1,29 @@
+{
+  "name": "spolab5test",
+  "version": "1.0.0",
+  "description": "test lab 5 kris",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"dev": "webpack-dev-server --hot --open --mode development",
+    "build": "webpack"
+  },
+  "author": "kristina",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "url-loader": "^1.1.1",
+    "vue-loader": "^15.4.2",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "dependencies": {
+    "mqtt": "^2.18.8",
+    "vue": "^2.5.17",
+    "vue-mqtt": "^2.0.3",
+    "vue-swatches": "^1.0.2"
+  }
+}
